@@ -1,14 +1,16 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-html ,body{
+
+html, body {
     height: 100%;
     width: 100%;
     font-family: "Glory";
 }
-#main{
+
+#main {
     height: 100%;
     width: 100%;
     display: flex;
@@ -16,14 +18,16 @@ html ,body{
     justify-content: center;
     background-color: rgba(2, 82, 2, 0.452);
 }
-#panel{
+
+#panel {
     height: 80%;
     width: 80%;
     background-color: #fff;
     border-radius: 15px;
     overflow: hidden;
 }
-#ptop{
+
+#ptop {
     height: 100px;
     width: 100%;
     padding: 0px 30%;
@@ -31,19 +35,21 @@ html ,body{
     align-items: center;
     justify-content: space-between;
     color: #fff;
-    background-color:    rgba(1, 62, 1, 0.789);
+    background-color: rgba(1, 62, 1, 0.789);
 
 }
-#elem{
+
+#elem {
     display: flex;
     width: 15%;
     align-items: center;
-    gap :20px;
-   
-    
-    
+    gap: 20px;
+
+
+
 }
-.box{
+
+.box {
     color: #000;
     background-color: #fff;
     border-radius: 5px;
@@ -51,15 +57,19 @@ html ,body{
     font-weight: 700;
     font-size: 25px;
 }
-#pbtm{
+
+#pbtm {
     display: flex;
     gap: 10px;
     width: 100%;
     height: calc(100% - 100px);
     flex-wrap: wrap;
-   
+    
+    
+
 }
-.bubble{
+
+.bubble {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -68,8 +78,10 @@ html ,body{
     background-color: rgb(141, 255, 47);
     border-radius: 50%;
     color: #fff;
+    
 }
-.bubble:hover{
+
+.bubble:hover {
     background-color: rgb(29, 54, 9);
     cursor: pointer;
 }
