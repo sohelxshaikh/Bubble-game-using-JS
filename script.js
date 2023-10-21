@@ -1,3 +1,5 @@
+timer = 60;
+
 function createBubble(){
     var clutter = "";
 
@@ -8,7 +10,7 @@ for(var i = 1 ; i <=154 ; i++ ){
 document.querySelector("#pbtm").innerHTML = clutter;
 }
 
-timer = 60;
+
 function setTimer(){
     var timerinn= setInterval(function(){
         if(timer>0){
@@ -23,7 +25,11 @@ function setTimer(){
 }
 
 
+function getNewHit(){
+    var rn = Math.floor(Math.random()*10)
+    document.querySelector("#hitval").textContent = rn;
+}
 
-
+getNewHit();
 setTimer();
 createBubble();
